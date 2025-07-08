@@ -1,1 +1,0 @@
-I want to create a minimal notetaking webapp. Let's start with writing a simple PRD, I will keep providing all details to this PRD when I got enough imformation later on.
