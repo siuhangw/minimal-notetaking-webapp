@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="header-bar">
+      <div class="app-title">My Notes</div>
+      <div class="search-bar-container">
+        <input type="text" id="search-input" placeholder="Search notes...">
+      </div>
+      <button id="new-note-btn" class="new-note-btn">+ New Note</button>
+    </header>
+    <div class="main-layout">
+      <aside class="sidebar" id="sidebar">
+        <!-- Notes list will be rendered here -->
+      </aside>
+      <main class="note-editor" id="note-editor">
+        <!-- Note editor or empty state will be rendered here -->
+      </main>
+    </div>
+    <div id="mobile-nav" class="mobile-nav"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
